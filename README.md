@@ -1,14 +1,3 @@
-# OIBSIP - Oasis Infobyte Internship Projects
-
-## Intern Details
-
-**Name:** Priyanshu Khandekar
-**Internship:** Oasis Infobyte AICTE Internship Program (OIBSIP)
-**Duration:** 05 June 2026 – 15 July 2026
-**Repository:** OIBSIP
-
----
-
 # About This Repository
 
 This repository contains the projects completed as part of the Oasis Infobyte Internship Program. The objective of these projects is to strengthen problem-solving abilities, programming skills, and software development practices through real-world implementation.
