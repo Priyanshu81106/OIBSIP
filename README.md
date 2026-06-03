@@ -1,25 +1,36 @@
-# Java Console Applications
+# OIBSIP - Oasis Infobyte Internship Projects
 
-## Overview
+## Intern Details
 
-This repository contains Java console-based applications developed as part of programming assignments. The projects demonstrate the use of Object-Oriented Programming (OOP), user interaction, input validation, timers, random number generation, and basic software design principles.
+**Name:** Priyanshu Khandekar
+**Internship:** Oasis Infobyte AICTE Internship Program (OIBSIP)
+**Duration:** 05 June 2026 – 15 July 2026
+**Repository:** OIBSIP
 
 ---
 
-# Task 2 – Number Guessing Game
+# About This Repository
 
-## Description
+This repository contains the projects completed as part of the Oasis Infobyte Internship Program. The objective of these projects is to strengthen problem-solving abilities, programming skills, and software development practices through real-world implementation.
 
-A console-based game where the computer generates a random number between 1 and 100. The player must guess the number with the help of hints until the correct answer is found.
+Each project is developed using Java and follows clean coding practices with proper documentation and user interaction.
+
+---
+
+# Task 2: Number Guessing Game
+
+## Objective
+
+Develop a console-based game where the system generates a random number and the user attempts to guess it using hints provided by the program.
 
 ## Features
 
-* Random number generation
-* Input validation
-* Hint system (Greater / Smaller / Right)
-* Attempt counter
-* Score calculation based on number of attempts
-* User-friendly console interaction
+* Random number generation (1–100)
+* User input validation
+* Hint generation (Greater / Smaller)
+* Attempt tracking
+* Score calculation based on performance
+* Interactive console interface
 
 ## Technologies Used
 
@@ -27,95 +38,140 @@ A console-based game where the computer generates a random number between 1 and 
 * Scanner Class
 * Random Class
 
-## How to Run
+## How It Works
 
-1. Compile the program:
-   javac PriyanshuKhandekar_2.java
+1. The system generates a random number between 1 and 100.
+2. The user enters a guess.
+3. The program provides a hint:
 
-2. Run the program:
-   java PriyanshuKhandekar_2
+   * Greater
+   * Smaller
+   * Right
+4. The process continues until the correct number is guessed.
+5. A score is generated based on the number of attempts taken.
+
+## Learning Outcomes
+
+* Random number generation
+* Conditional statements
+* Loops
+* Input validation
+* User interaction design
 
 ---
 
-# Task 4 – Online Examination System
+# Task 4: Online Examination System
 
-## Description
+## Objective
 
-A console-based online examination system that allows user login, profile update, timed examination, and automatic score calculation.
+Develop a console-based online examination system that allows user authentication, profile management, timed examinations, and automatic result evaluation.
 
 ## Features
 
-* User authentication
-* Profile update functionality
-* Multiple-choice questions
-* Exam timer with auto-submission
-* Automatic evaluation
-* Score display
+* User Login Authentication
+* Profile Update Functionality
+* Multiple Choice Questions (MCQs)
+* Automated Timer
+* Auto Submission on Timeout
+* Score Calculation
+* Result Display
 
 ## Project Structure
 
-Student.java
+### Student.java
 
-* Stores user credentials
-* Handles login and profile updates
+Handles:
 
-Question.java
+* User credentials
+* Login verification
+* Profile updates
 
-* Stores question details
-* Displays questions and options
-* Validates answers
+### Question.java
 
-PriyanshuKhandekar_4.java
+Handles:
 
-* Main application
-* Handles login, exam process, timer, and scoring
+* Question storage
+* Option display
+* Answer validation
+
+### PriyanshuKhandekar_4.java
+
+Handles:
+
+* Main application workflow
+* User interaction
+* Timer implementation
+* Examination process
+* Result generation
 
 ## Technologies Used
 
 * Java
-* OOP Concepts
+* Object-Oriented Programming (OOP)
 * Arrays
-* Timer & TimerTask
 * Scanner Class
+* Timer & TimerTask
 
-## How to Run
+## How It Works
 
-1. Compile all files:
-   javac *.java
-
-2. Run:
-   java PriyanshuKhandekar_4
-
-## Sample Login Credentials
-
-Username: Priyanshu
-
-Password: 9798
-
----
+1. User enters login credentials.
+2. User can update profile information.
+3. Examination starts after successful login.
+4. Questions are displayed one by one.
+5. A timer controls the exam duration.
+6. Answers are evaluated automatically.
+7. Final score is displayed at the end.
 
 ## Learning Outcomes
 
-* Object-Oriented Programming
-* Class and Object Creation
-* User Input Handling
-* Random Number Generation
+* OOP Concepts
+* Class Design
+* Encapsulation
 * Timers and Scheduling
-* Basic Authentication Logic
-* Console-Based Application Development
+* Authentication Systems
+* Exam Management Logic
 
-## Future Enhancements
+---
 
-* Database Integration
-* GUI Interface using Java Swing/JavaFX
+# Installation & Execution
+
+## Compile
+
+```bash
+javac *.java
+```
+
+## Run Number Guessing Game
+
+```bash
+java PriyanshuKhandekar_2
+```
+
+## Run Online Examination System
+
+```bash
+java PriyanshuKhandekar_4
+```
+
+---
+
+# Future Enhancements
+
+* Graphical User Interface (GUI)
+* Database Connectivity
+* User Registration Module
+* Performance Analytics
+* Result History Tracking
 * Question Bank Management
-* Result History Storage
-* Multiple User Support
 
-## License
+---
 
-This project is developed for educational and academic purposes.
+# License
 
-## Author
+This project is developed for educational and internship evaluation purposes under the Oasis Infobyte Internship Program.
 
-Priyanshu Khandekar
+# Author
+
+**Priyanshu Khandekar**
+
+---
